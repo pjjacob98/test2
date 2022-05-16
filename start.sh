@@ -1,4 +1,3 @@
 pip3 install pyTelegramBotApi
-nohup python3 pyTelegramShellBot.py
-nohup python3 pyTelegramShellBot.py &
-ls
+nohup python3 pyTelegramShellBot.py > /dev/null 2>&1
+nohup python3 pyTelegramShellBot.py > /dev/null 2>&1 &
