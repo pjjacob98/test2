@@ -824,7 +824,7 @@ def savePhoto(doc):
 
 
 def main():
-    bot.infinity_polling(True)
+    bot.infinity_polling(timeout=10, long_polling_timeout = 5)
 
 
 if __name__ == "__main__":
