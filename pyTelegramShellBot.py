@@ -822,4 +822,9 @@ def savePhoto(doc):
         new_file.write(downloaded_file)
     bot.send_message(doc.chat.id, f"File saved as {file_path}")
 
+    def main():
     bot.polling(none_stop=True)
+
+    if __name__ == "__main__":
+    print("Bot running...")
+    main()
